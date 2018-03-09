@@ -10,9 +10,7 @@ public class VipCustomer {
     }
 
     public VipCustomer(String name, BigDecimal creditLimit) {
-        this.name = name;
-        this.creditLimit = creditLimit;
-        this.emailAdress = "jack@gmail.com";
+        this(name,creditLimit,"jack@gmail.com");
     }
 
     public VipCustomer(String name, BigDecimal creditLimit, String emailAdress) {
